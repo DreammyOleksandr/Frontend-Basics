@@ -1,0 +1,36 @@
+.row {
+  margin-top: 20px;
+  display: flex;
+  gap: 200px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border-width: 5px;
+  border-color: black;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.square-one-position {
+  background-color: #f4c49d;
+}
+
+.square-two-position {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  background-color: #d5b0b0;
+  opacity: 0.8;
+}
+
+.square-one-transform {
+  background-color: #f4c49d;
+}
+
+.square-two-transform {
+  transform: translate(50px, -50px);
+  background-color: #d5b0b0;
+  opacity: 0.8;
+}
