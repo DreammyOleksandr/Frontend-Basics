@@ -3,15 +3,13 @@ validate = () => {
   let inputsRegex = new Map()
 
   for (let element of inputs) {
-    if (element.getAttribute('regex')) {
-      inputsRegex.set(element.id, {
-        data: element.value,
-        regex: element.getAttribute('regex'),
-        example: element.getAttribute('example'),
-      })
-    }
+    inputsRegex.set(element.id, {
+      data: element.value,
+      regex: element.getAttribute('regex'),
+      example: element.getAttribute('example'),
+    })
   }
-  console.log(inputsRegex)
+
   inputsRegex.forEach((value, key) => {
     const element = document.getElementById(key)
     if (!value.data.match(value.regex) && !element.classList.contains('input-danger')) {
@@ -29,6 +27,8 @@ validate = () => {
       element.classList.remove('input-danger')
       element.parentNode.removeChild(element.nextSibling)
     }
+    let result = document.getElementById(`${element.id}-result`)
+    if (value.data.match(value.regex) && value.data) result.textContent = value.data
   })
 }
 
