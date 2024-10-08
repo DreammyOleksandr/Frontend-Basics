@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Інформація про студента" />
+    <meta name="keywords" content="front, front-end, programming" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Бондаренко Олександр Юрійович, ІМ-22</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="container">
+        <input
+          type="text"
+          id="full-name"
+          regex="^[А-ЯІЇЄҐ][а-яіїєґ']+\s[А-ЯІЇЄҐ]\.[А-ЯІЇЄҐ]\.$"
+          placeholder="ПІБ"
+          example="Бондаренко О.Ю."
+        />
+        <input
+          id="variant"
+          type="text"
+          regex="\d+$"
+          oninput="numberInput(this)"
+          placeholder="Варіант"
+          example="71"
+        />
+        <input
+          id="group"
+          type="text"
+          regex="^([A-ZА-ЯІЇЄҐ]{2})-\d{2}$"
+          placeholder="Група"
+          example="ІМ-22"
+        />
+        <div>
+          <label class="phone-number-label">+380</label>
+          <input
+            id="phone-number"
+            oninput="numberInput(this)"
+            regex="^\d{9}$"
+            maxlength="9"
+            type="tel"
+            placeholder="Телефон"
+            example="9 чисел під ряд"
+          />
+        </div>
+        <input
+          id="id-card"
+          type="text"
+          placeholder="ID-карта"
+          regex="^[A-Z]{2}\s№\d{6}$"
+          example="AD №123456"
+        />
+        <button class="btn" onclick="validate()">Надіслати</button>
+      </div>
+      <div class="container">
+        <h2>Введені дані:</h2>
+        <h3>ПІБ: <span id="full-name-result"></span></h3>
+        <h3>Варіант: <span id="variant-result"></span></h3>
+        <h3>Група: <span id="group-result"></span></h3>
+        <h3>Номер телефону: <span id="phone-number-result"></span></h3>
+        <h3>ID-карта: <span id="id-card-result"></span></h3>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

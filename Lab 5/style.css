@@ -6,7 +6,7 @@
 }
 
 input {
-  min-width: 24.8rem;
+  min-width: 24.3rem;
   max-width: 30rem;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -78,4 +78,11 @@ input:focus {
   font-size: 16px;
   font-weight: 400;
   color: crimson;
+}
+
+.flex-container{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 150px
 }
