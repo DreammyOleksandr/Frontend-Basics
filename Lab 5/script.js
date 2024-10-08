@@ -1,14 +1,19 @@
+const cell = document.getElementById('variant-cell')
+const row = document.getElementById('variant-row')
+const colorPicker = document.getElementById('colorPicker')
+
 validate = () => {
   const inputs = document.getElementsByTagName('input')
   let inputsRegex = new Map()
 
-  for (let element of inputs) {
-    inputsRegex.set(element.id, {
-      data: element.value,
-      regex: element.getAttribute('regex'),
-      example: element.getAttribute('example'),
-    })
-  }
+  for (let element of inputs)
+    if (element.getAttribute('regex')) {
+      inputsRegex.set(element.id, {
+        data: element.value,
+        regex: element.getAttribute('regex'),
+        example: element.getAttribute('example'),
+      })
+    }
 
   inputsRegex.forEach((value, key) => {
     const element = document.getElementById(key)
@@ -33,3 +38,19 @@ validate = () => {
 }
 
 numberInput = (context) => (context.value = context.value.replace(/[^0-9]/g, ''))
+getRandomColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`
+
+cell.addEventListener('mouseenter', () => (cell.style.backgroundColor = getRandomColor()))
+cell.addEventListener('click', () => {
+  colorPicker.click()
+  colorPicker.oninput = () => {
+    cell.style.backgroundColor = colorPicker.value
+  }
+})
+cell.addEventListener('dblclick', () => {
+  colorPicker.click()
+  colorPicker.oninput = () => {
+    cell.style.backgroundColor = colorPicker.value
+    row.style.backgroundColor = colorPicker.value
+  }
+})
