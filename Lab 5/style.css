@@ -1,3 +1,7 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .container {
   display: grid;
   justify-content: space-between;
@@ -5,6 +9,9 @@
   max-width: 30rem;
 }
 
+input[type='color'] {
+  display: none;
+}
 input {
   min-width: 24.3rem;
   max-width: 30rem;
@@ -80,9 +87,8 @@ input:focus {
   color: crimson;
 }
 
-.flex-container{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.flex-container {
   display: flex;
   flex-direction: row;
-  gap: 150px
+  gap: 150px;
 }
