@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Frontend-Basics/Lab%207/static/css/main.3b44755e.css",
+    "main.js": "/Frontend-Basics/Lab%207/static/js/main.44b566b0.js",
+    "static/media/Kyiv.jpg": "/Frontend-Basics/Lab%207/static/media/Kyiv.3bf65e49dd84f4ecf045.jpg",
+    "index.html": "/Frontend-Basics/Lab%207/index.html",
+    "main.3b44755e.css.map": "/Frontend-Basics/Lab%207/static/css/main.3b44755e.css.map",
+    "main.44b566b0.js.map": "/Frontend-Basics/Lab%207/static/js/main.44b566b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b44755e.css",
+    "static/js/main.44b566b0.js"
+  ]
+}
