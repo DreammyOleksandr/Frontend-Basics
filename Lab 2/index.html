@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Бондаренко Олександр Юрійович ІМ-22">
+    <title>Лабораторна №2</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      .fixed-row-height {
+        height: 30px;
+      }
+
+      .first-row-bg {
+        background-color: #718f8f;
+        color: aliceblue;
+      }
+      .first-row-bg:hover {
+        filter: invert();
+      }
+
+      .second-row-bg {
+        background-color: #5f5f71;
+        color: aliceblue;
+      }
+
+      .second-row-bg:hover {
+        filter: invert();
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <tr class="fixed-row-height first-row-bg">
+        <td colspan="4" rowspan="2" width="50%">Бондаренко</td>
+        <td colspan="2" width="25%">Олександр</td>
+        <td colspan="2" rowspan="2" width="12.5%">Юрійович</td>
+        <td colspan="2" rowspan="2" width="12.5%"></td>
+      </tr>
+      <tr class="fixed-row-height second-row-bg">
+        <td colspan="2">IM-22 | ЛР-2 | Варант-1</td>
+      </tr>
+      <tr class="fixed-row-height">
+        <td colspan="2" width="25%"></td>
+        <td colspan="2" rowspan="2"></td>
+        <td colspan="2" rowspan="2"></td>
+      </tr>
+      <tr class="fixed-row-height">
+
+      </tr>
+    </table>
+
+    <div class="row">
+      <div>
+        <div class="rectangle rectangle-position"></div>
+        <div class="circle red-light-position"></div>
+        <div class="circle yellow-light-position"></div>
+        <div class="circle green-light-position"></div>
+      </div>
+
+      <div>
+        <div class="rectangle rectangle-transform"></div>
+        <div class="circle red-light-transform"></div>
+        <div class="circle yellow-light-transform"></div>
+        <div class="circle green-light-transform"></div>
+      </div>
+    </div>
+  </body>
+</html>

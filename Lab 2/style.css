@@ -1,0 +1,65 @@
+.row {
+  margin-top: 20px;
+  display: flex;
+  gap: 300px;
+}
+
+.rectangle {
+  width: 120px;
+  height: 360px;
+  border-width: 5px;
+  border-color: black;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.circle {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.red-light-position{
+  position: relative;
+  bottom: 350px;
+  left: 22px;
+  background-color: red;
+}
+
+.yellow-light-position{
+  position: relative;
+  bottom: 315px;
+  left: 22px;
+  background-color: yellow;
+}
+
+.green-light-position{
+  position: relative;
+  bottom: 280px;
+  left: 22px;
+  background-color: green;
+}
+.red-light-transform{
+  transform: translate(22px, -350px);
+  background-color: red;
+}
+
+.yellow-light-transform{
+  transform: translate(22px, -315px);
+  background-color: yellow;
+}
+
+.green-light-transform{
+  transform: translate(22px, -280px);
+  background-color: green;
+}
+
+.rectangle-position {
+  background-color: #d8d8d8;
+}
+
+.rectangle-transform {
+  background-color: #d8d8d8;
+}
+
