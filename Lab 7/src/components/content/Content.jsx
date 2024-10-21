@@ -20,7 +20,6 @@ export class Content extends Component {
       <div>
         <div>
           <h2
-            id='first-element'
             className={`${this.state.isFirstInverted ? 'invert' : ''} first-element-color`}
             onClick={this.firstElementColorChange}
           >
@@ -28,7 +27,6 @@ export class Content extends Component {
           </h2>
 
           <p
-            id='second-element'
             className={`${this.state.isSecondInverted ? 'invert' : ''} second-element-color`}
             onClick={this.secondElementColorChange}
           >
@@ -69,29 +67,6 @@ export class Content extends Component {
             Довжина вздовж берега — понад 20 км.
             <br />
           </p>
-        </div>
-        <div id='image-container'>
-          <a
-            id='image-ref'
-            href='https://www.rbc.ua/rus/styler/tse-znayut-navit-kiyani-k-davninu-nazivali-1689685139.html'
-          >
-            <img
-              id='image'
-              className='image'
-              src='./images/Kyiv.jpg'
-              alt='Упс, щось пішло не так...'
-            />
-          </a>
-        </div>
-        <div>
-          <button onclick='addImage()'>Додати</button>
-          <button id='zoomIn' onclick='zoom(this)'>
-            Збільшити
-          </button>
-          <button id='zoomOut' onclick='zoom(this)'>
-            Зменшити
-          </button>
-          <button onclick='deleteImage()'>Видалити</button>
         </div>
       </div>
     )
