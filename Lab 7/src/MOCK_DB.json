@@ -1,0 +1,62 @@
+[
+  {
+    "image": "https://icons.iconarchive.com/icons/iconarchive/fruit-soft-illustration/256/Strawberry-icon.png",
+    "name": "Bread - Pita",
+    "price": "€19,40"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/iconicon/veggies/256/bananas-icon.png",
+    "name": "Soup - Campbells Asian Noodle",
+    "price": "€5,19"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/fi3ur/fruitsalad/256/apple-icon.png",
+    "name": "Kiwano",
+    "price": "€9,35"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/fi3ur/fruitsalad/256/coconut-icon.png",
+    "name": "Blouse / Shirt / Sweater",
+    "price": "€13,53"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/artbees/chocolate-obsession/256/Cherry-Cake-icon.png",
+    "name": "Cheese Cloth",
+    "price": "€7,96"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/martin-berube/food/256/apricot-icon.png",
+    "name": "Muffin Batt - Blueberry Passion",
+    "price": "€12,18"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/bingxueling/fruit-vegetables/256/lemon-icon.png",
+    "name": "Pie Shell - 5",
+    "price": "€5,40"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/fi3ur/fruitsalad/256/cherry-icon.png",
+    "name": "Flour - Semolina",
+    "price": "€14,72"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/seanau/flat-app/256/Foods-icon.png",
+    "name": "Beans - Yellow",
+    "price": "€13,26"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/aha-soft/desktop-buffet/256/Cheese-icon.png",
+    "name": "Juice - Apple 284ml",
+    "price": "€12,31"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/aha-soft/desktop-buffet/256/Grapes-icon.png",
+    "name": "Wine - Winzer Krems Gruner",
+    "price": "€6,34"
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/google/noto-emoji-food-drink/256/32356-tomato-icon.png",
+    "name": "Easy Off Oven Cleaner",
+    "price": "€9,36"
+  }
+]
