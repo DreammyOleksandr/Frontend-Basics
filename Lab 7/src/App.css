@@ -1,6 +1,5 @@
 .App {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .App-logo {
@@ -50,4 +49,9 @@
 
 .invert {
   filter: invert();
+}
+
+.image{
+  max-width: 256px;
+  max-height: 256px;
 }
