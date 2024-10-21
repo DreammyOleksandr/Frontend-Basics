@@ -51,10 +51,3 @@
 .invert {
   filter: invert();
 }
-
-.image {
-  max-height: 1000px;
-  min-height: 200px;
-  max-width: 1500px;
-  min-width: 500px;
-}
